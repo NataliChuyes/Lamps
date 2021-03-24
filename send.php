@@ -106,10 +106,7 @@ $message = 'Имя: '.$name.' <br>Телефон: '.$phone.'
             box-shadow: 0px 1px 0px #FA501E;
         }
 
-        /*
-
-        */
-
+    
         .version.thank_you /* version checker */
 {
             color: #0000EE;
