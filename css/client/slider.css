@@ -1,0 +1,23 @@
+.slider-box {
+    width: 1250px;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.slider {
+    position: relative;
+    width: 10000px;
+    height: 500px;
+}
+
+.slider img {
+    float: left;
+    z-index: 0;
+}
+
+@media (max-width:767.98px) {
+    .slider-box {
+        max-width: calc(50% - 1px)
+    }
+}

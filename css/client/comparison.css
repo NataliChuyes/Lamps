@@ -1,0 +1,127 @@
+.compare-new {
+    display: block;
+    width: 100%;
+}
+
+.compare-new .compare-new-block {
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+}
+
+.compare-new .compare-block-left>div,
+.compare-new .compare-block-right>div {
+    display: none;
+}
+
+.compare-new .compare-block-left>div:nth-child(1) {
+    display: block;
+}
+
+.compare-new .compare-block-right>div:nth-child(2) {
+    display: block;
+}
+
+.selectric-select-compare-new {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.selectric-select-compare-new .label,
+.selectric-select-compare-new .selectric-items li {
+    font-size: 20px !important;
+}
+
+.compare-new .compare-new-full {
+    clear: both;
+    margin: 20px 20px 5px 20px;
+}
+
+.compare-new .compare-new-full p {
+    color: #967499;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.compare-new .compare-new-foto img {
+    height: 250px;
+    display: none;
+}
+
+.compare-new .compare-new-foto img:nth-child(1) {
+    display: inline-block;
+}
+
+.compare-new .compare-new-price {
+    font-size: 26px;
+}
+
+.compare-new .compare-new-price>div {
+    margin: 0 auto;
+    width: 150px;
+}
+
+.compare-new .compare-new-color>div {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.compare-new .compare-new-text {
+    font-size: 26px;
+}
+
+.compare-new .compare-new-text-m {
+    height: 70px;
+}
+
+@media only screen and (max-width: 500px) {
+    .compare-new .compare-new-foto img {
+        height: 150px;
+    }
+    .selectric-select-compare-new {
+        width: 170px !important;
+    }
+    .selectric-select-compare-new .label,
+    .selectric-select-compare-new .selectric-items li {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .compare-new .compare-new-text-m {
+        height: 300px !important;
+        font-size: 22px;
+    }
+    .compare-new .compare-new-text-d {
+        height: 120px !important;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .compare-new .compare-new-text-m {
+        height: 200px !important;
+        font-size: 22px;
+    }
+    .compare-new .compare-new-text-d {
+        height: 120px !important;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .compare-new .compare-new-text-m {
+        height: 100px !important;
+        font-size: 22px;
+    }
+    .compare-new .compare-new-text-d {
+        height: 70px !important;
+    }
+}
